@@ -11,6 +11,6 @@ namespace Effectory.Questionnaire.Domain.Questionnaires
         int QuestionnaireId { get; }
         int QuestionId { get; }
         int AnswerId { get; }
-        DateTime AnsweredAt { get; }
+        DateTime RespondedAt { get; }
     }
 }

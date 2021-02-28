@@ -15,7 +15,7 @@ namespace Effectory.Questionnaire.Infrastructure.DataAccess.Configurations
             builder.Property(x => x.QuestionnaireId);
             builder.Property(x => x.QuestionId);
             builder.Property(x => x.AnswerId);
-            builder.Property(x => x.AnsweredAt);
+            builder.Property(x => x.RespondedAt);
         }
     }
 }

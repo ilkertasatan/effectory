@@ -20,7 +20,7 @@ namespace Effectory.Questionnaire.Domain.Questionnaires.UserResponses
             QuestionnaireId = questionnaireId;
             QuestionId = questionId;
             AnswerId = answerId;
-            AnsweredAt = DateTime.UtcNow;
+            RespondedAt = DateTime.UtcNow;
         }
 
         public int Id { get; }
@@ -29,6 +29,6 @@ namespace Effectory.Questionnaire.Domain.Questionnaires.UserResponses
         public int QuestionnaireId { get; }
         public int QuestionId { get; }
         public int AnswerId { get; }
-        public DateTime AnsweredAt { get; }
+        public DateTime RespondedAt { get; }
     }
 }
